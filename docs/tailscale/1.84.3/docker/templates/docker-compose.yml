@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  tailscale:
+    container_name: tailscale
+    image: tailscale/tailscale:latest
+    network_mode: "host"
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    volumes:
+      - tailscale-data:/var/lib/tailscale
+      - /dev/net/tun:/dev/net/tun
+    environment:
+      - TS_AUTHKEY=${TS_AUTHKEY}
+      - TS_EXTRA_ARGS=--hostname=${TS_HOSTNAME} --advertise-routes=${TS_ROUTES}
+    restart: unless-stopped
+
+volumes:
+  tailscale-data:

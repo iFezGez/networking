@@ -1,0 +1,17 @@
+site_name: "Networking Repository"
+repo_url: "https://github.com/vestasec/networking"
+docs_dir: docs
+
+theme:
+  name: material
+
+markdown_extensions: [admonition, codehilite, toc]
+
+nav:
+  - Home: index.md
+  - Tailscale 1.84.3 (docker):
+      - Installation: tailscale/1.84.3/docker/docs/installation.md
+      - Networking: tailscale/1.84.3/docker/docs/network.md
+      - Configuration: tailscale/1.84.3/docker/docs/configuration.md
+      - Features: tailscale/1.84.3/docker/docs/features.md
+      - Troubleshooting: tailscale/1.84.3/docker/troubleshooting/general.md
