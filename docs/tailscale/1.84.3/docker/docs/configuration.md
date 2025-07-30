@@ -34,8 +34,9 @@ docker-compose up -d
 1. Go to https://login.tailscale.com/admin/machines
 2. Locate the node `dock1`
 3. Click **"Enable subnet routes"**
-![Approve subnet routes](../assets/approve-subnet-routes.png)
 4. Make sure the route indicator turns green
+
+![Approve subnet routes](../assets/approve-subnet-routes.png)
 
 ## Step 4 – Test from another node
 

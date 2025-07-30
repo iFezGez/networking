@@ -11,6 +11,7 @@ This document explains how Tailscale integrates with the host network when runni
 | 41641 | UDP      | Primary WireGuard peer-to-peer traffic  |
 | 443   | TCP      | Control connection to coordination server |
 | 53    | UDP      | DNS resolution if MagicDNS is enabled   |
+
 ![MagicDNS enabled](../assets/magicdns-enabled.png)
 
 > Note: Tailscale does not require incoming ports, but outbound UDP 41641 must be allowed.

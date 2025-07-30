@@ -6,7 +6,7 @@ This guide provides common troubleshooting steps for issues encountered while ru
 
 ---
 
-## 🧩 Common Problems and Solutions
+## Common Problems and Solutions
 
 ### Problem: Container is not connecting to Tailscale network
 
@@ -58,7 +58,7 @@ This guide provides common troubleshooting steps for issues encountered while ru
 
 ---
 
-## 🔍 Diagnostic Commands
+## Diagnostic Commands
 
 ```bash
 tailscale status

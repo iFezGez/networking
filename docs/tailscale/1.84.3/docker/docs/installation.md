@@ -66,13 +66,14 @@ docker exec -it tailscale tailscale status
 ```
 
 ## Admin Panel Tips
-![Tailscale admin panel](../assets/admin-panel-machines.png)
 
 | Menu         | Action                  | Purpose                                 |
 |--------------|--------------------------|------------------------------------------|
 | Admin Panel  | Enable Subnet Routes     | Allow access to local lab networks       |
 | Machines     | Check hostname           | Confirm container is registered as `dock1` |
 | Auth Keys    | Create new key           | Automate deployments                     |
+
+![Tailscale admin panel](../assets/admin-panel-machines.png)
 
 ## Validation and Tests
 

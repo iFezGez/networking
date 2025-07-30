@@ -36,5 +36,5 @@ EOF
 echo "Starting container..."
 docker-compose up -d
 
-echo "✅ Tailscale container is running."
+echo "Tailscale container is running."
 echo "Visit https://login.tailscale.com/admin/machines to verify."
