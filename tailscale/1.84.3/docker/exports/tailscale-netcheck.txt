@@ -1,0 +1,38 @@
+Report:
+        * Time: 2025-07-30T13:22:29.480101805Z
+        * UDP: true
+        * IPv4: yes, 177.93.0.133:14669
+        * IPv6: no, but OS has support
+        * MappingVariesByDestIP: false
+        * PortMapping:
+        * CaptivePortal: false
+        * Nearest DERP: Miami
+        * DERP latency:
+                - mia: 49.8ms  (Miami)
+                - ord: 77.4ms  (Chicago)
+                - nyc: 82.5ms  (New York City)
+                - dfw: 82.9ms  (Dallas)
+                - iad: 83.5ms  (Ashburn)
+                - tor: 87.8ms  (Toronto)
+                - den: 99.2ms  (Denver)
+                - lax: 109.2ms (Los Angeles)
+                - sfo: 121.7ms (San Francisco)
+                - sea: 123.2ms (Seattle)
+                - par: 150.4ms (Paris)
+                - lhr: 152.5ms (London)
+                - fra: 156.9ms (Frankfurt)
+                - ams: 157.2ms (Amsterdam)
+                - hnl: 158.3ms (Honolulu)
+                - sao: 161.5ms (São Paulo)
+                - mad: 168.8ms (Madrid)
+                - hel: 176.7ms (Helsinki)
+                - waw: 179.4ms (Warsaw)
+                - nue: 182.9ms (Nuremberg)
+                - tok: 221.4ms (Tokyo)
+                - dbi: 251.5ms (Dubai)
+                - nai: 291.5ms (Nairobi)
+                - sin: 301.5ms (Singapore)
+                - jnb: 312.3ms (Johannesburg)
+                - blr: 313.2ms (Bangalore)
+                - syd: 314.9ms (Sydney)
+                - hkg: 702.2ms (Hong Kong)
