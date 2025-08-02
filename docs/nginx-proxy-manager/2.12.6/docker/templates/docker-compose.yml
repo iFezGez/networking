@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  npm:
+    container_name: npm
+    image: jc21/nginx-proxy-manager:latest
+    restart: unless-stopped
+    ports:
+      - 80:80        # HTTP
+      - 81:81        # Admin UI
+      - 443:443      # HTTPS
+    volumes:
+      - npm-data:/data
+      - npm-letsencrypt:/etc/letsencrypt
+
+volumes:
+  npm-data:
+  npm-letsencrypt:

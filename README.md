@@ -6,7 +6,7 @@ This repository contains documentation and configuration stacks for networking t
 |------------------------|----------|-------------|-------------------------------------------------------------|
 | **Tailscale**          | 1.84.3   | docker      | [`tailscale/1.84.3/docker/docs/`](docs/tailscale/1.84.3/docker/docs) |
 | **WireGuard**          | 1.0.2021 | bare-metal  | _placeholder_                                               |
-| **Nginx Proxy Manager**| 2.11.2   | docker      | _placeholder_                                               |
+| **Nginx Proxy Manager**| 2.12.6   | docker      | [`nginx-proxy-manager/2.12.6/docker/docs/`](docs/nginx-proxy-manager/2.12.6/docker/docs) |
 
 ---
 

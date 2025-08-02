@@ -15,3 +15,9 @@ nav:
       - Configuration: tailscale/1.84.3/docker/docs/configuration.md
       - Features: tailscale/1.84.3/docker/docs/features.md
       - Troubleshooting: tailscale/1.84.3/docker/troubleshooting/general.md
+  - Nginx Proxy Manager 2.12.6 (docker):
+      - Installation: nginx-proxy-manager/2.12.6/docker/docs/installation.md
+      - Configuration: nginx-proxy-manager/2.12.6/docker/docs/configuration.md
+      - Networking: nginx-proxy-manager/2.12.6/docker/docs/network.md
+      - Features: nginx-proxy-manager/2.12.6/docker/docs/features.md
+      - Troubleshooting: nginx-proxy-manager/2.12.6/docker/troubleshooting/general.md

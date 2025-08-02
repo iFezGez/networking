@@ -1,0 +1,10 @@
+/site/
+/_site/
+/storage_site/
+/gh-pages/
+/mkdocs/
+
+docs/**/exports/*.tar
+docs/**/exports/*.db
+
+/_site/
