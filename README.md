@@ -1,30 +1,35 @@
-# Networking Repository
+# 🛡️ Networking Blueprints: Secure Connectivity Stacks
 
-This repository contains documentation and configuration stacks for networking tools used in Vesta Lab environments, including VPN solutions, reverse proxies, and secure mesh connectivity.
+[![Tailscale](https://img.shields.io/badge/VPN-Tailscale-blue?logo=tailscale)](https://tailscale.com)
+[![WireGuard](https://img.shields.io/badge/VPN-WireGuard-881717?logo=wireguard)](https://www.wireguard.com)
+[![Nginx](https://img.shields.io/badge/Proxy-Nginx-green?logo=nginx)](https://nginxproxymanager.com)
 
-| Service                | Version  | Deploy type | Docs entry                                                  |
-|------------------------|----------|-------------|-------------------------------------------------------------|
-| **Tailscale**          | 1.84.3   | docker      | [`tailscale/1.84.3/docker/docs/`](docs/tailscale/1.84.3/docker/docs) |
-| **WireGuard**          | 1.0.2021 | bare-metal  | _placeholder_                                               |
-| **Nginx Proxy Manager**| 2.12.6   | docker      | [`nginx-proxy-manager/2.12.6/docker/docs/`](docs/nginx-proxy-manager/2.12.6/docker/docs) |
+A collection of **Standardized Networking Stacks** for secure remote teams and distributed infrastructure. These blueprints focus on encrypted connectivity, reverse proxying, and Zero-Trust access.
 
 ---
 
-## Live Documentation
+## 🚀 Key Solutions
+- **Mesh VPNs:** Zero-config connectivity using Tailscale and WireGuard.
+- **Secure Reverse Proxy:** Automated SSL and access control via Nginx Proxy Manager.
+- **Zero-Trust Infrastructure:** Secure tunnels and private network segmentation.
 
-The full networking stack documentation is published online via MkDocs:  
-- [https://ifezgez.github.io/networking/](https://ifezgez.github.io/networking/)
+## 🛠️ Stack Overview
+
+| Solution                | Deployment Type | Core Function                              |
+|-------------------------|-----------------|--------------------------------------------|
+| **Tailscale**           | Docker          | Global Mesh VPN & Zero-Trust Access        |
+| **WireGuard**           | Bare-metal      | High-performance Tunneling                 |
+| **Nginx Proxy Manager** | Docker          | SSL Management & Internal Service Routing  |
+
+## 🌐 Live Documentation
+Detailed deployment guides and configuration blueprints:  
+👉 [https://ifezgez.github.io/networking/](https://ifezgez.github.io/networking/)
 
 ---
 
-## Maintainer
-
-**Ignacio Fernandez**  
-CEO @ Vesta Security LATAM  
-[https://vestasec.com](https://vestasec.com)
+## 👤 Maintainer
+**Ignacio Fernandez** | CEO @ Vesta Security LATAM  
+[VestaSec.com](https://vestasec.com) | [LinkedIn](https://www.linkedin.com/in/ignacio-fernandez-vesta/)
 
 ---
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE), unless otherwise specified in a specific service directory.
+**Secure connectivity is the foundation of digital operations. Build with speed, security, and scalability.**
