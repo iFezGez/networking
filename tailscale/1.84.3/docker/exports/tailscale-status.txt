@@ -1,0 +1,8 @@
+100.124.174.7   dock1                dock1.tail4217b2.ts.net linux   -
+100.90.0.1      dock1-vpn-gateway    tagged-devices linux   offline
+100.90.0.2      dock2-vpn-gateway    tagged-devices linux   -
+100.90.0.10     ignacio-aorus        info@        windows offline
+100.90.0.11     ignacio-iphone       info@        iOS     offline
+
+# Health check:
+#     - Some peers are advertising routes but --accept-routes is false
